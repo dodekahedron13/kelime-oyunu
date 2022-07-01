@@ -49,7 +49,7 @@ $(function ($) {
         }
         x != Number(x) ? strCreate() : x;
 
-        let y = Number(prompt('Kelimeler min. Kaç Harften Oluşturulsun ?')) ?? null;
+        let y = Number(prompt('Kelimeler Max. Kaç Harften Oluşturulsun ?')) ?? null;
         y = y ? y : null;
         if ( !y ) {
             return strCreate();
